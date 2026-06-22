@@ -1,0 +1,48 @@
+# 依赖
+node_modules/
+package-lock.json
+
+# 环境配置
+.env
+.env.local
+
+# 浏览器数据
+playwright/.auth/
+.auth/
+
+# 日志
+*.log
+logs/
+
+# 临时文件
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 敏感信息 - 账号密码
+**/账号*.json
+**/password*.json
+credentials.json
+
+# OA登录session
+playwright-state.json
+storage-state.json
+
+# 测试数据 - 真实合同文档不上传
+*.docx
+*.xlsx
+*.pdf
+!**/示例合同.docx
+!**/示例ROI.xlsx
+
+# 乙方账号信息 - 包含真实邮箱和银行账号
+乙方账号映射表.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.claude/cache/
