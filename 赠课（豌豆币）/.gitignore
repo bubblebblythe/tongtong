@@ -1,0 +1,16 @@
+# 认证文件
+auth.json
+feishu-auth.json
+
+# 数据文件
+downloads/
+output/
+logs/
+
+# 依赖
+node_modules/
+package-lock.json
+
+# 临时文件
+*.tmp
+*.log
